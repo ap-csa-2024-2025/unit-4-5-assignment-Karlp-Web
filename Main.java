@@ -9,7 +9,15 @@ public class Main
 
   public static void printNTimes(String word, int N)
   {
-    // code solution here
+    for (int i = 0; i < word.length(); i++)
+    {
+      String L = word.substring(i, i+1);
+
+      if (int n = 0; n < N; n++)
+      {
+        System.out.println(L);
+      }
+    }
   }
 
   public static void printNums()
