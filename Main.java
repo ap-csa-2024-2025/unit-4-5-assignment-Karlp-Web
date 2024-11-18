@@ -11,18 +11,24 @@ public class Main
   {
     for (int i = 0; i < word.length(); i++)
     {
-      String L = word.substring(i, i+1);
+      String L = word.substring(i, i+1);//extracts a single charatcer from word
 
+//loop that runs N times
       if (int n = 0; n < N; n++)
       {
-        System.out.println(L);
+        System.out.println(L); //prints the extracted character N times
       }
     }
   }
 
   public static void printNums()
   {
-    // code solution here
+    REPEAT 10 times
+    {
+      System.out.print(10 + " ");
+    }
+    
+
   }
 
   public static void uprightNumberTriangle(int N)
