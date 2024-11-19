@@ -23,9 +23,13 @@ public class Main
 
   public static void printNums()
   {
-    REPEAT 10 times
+    for (int num = 10; num > 0; num--) //current number down till it reaches 0
     {
-      System.out.print(10 + " ");
+     for (int num1 = 0; num1 < num; num1++) //makes sure that the number of times to repeat are less than the current number and keeps adding until it reaches <10
+     {
+      System.out.print(num + " "); //prints the current number with a new line
+     } 
+     System.out.println(); //new line
     }
     
 
@@ -33,7 +37,7 @@ public class Main
 
   public static void uprightNumberTriangle(int N)
   {
-    // code solution here
+    For (int)
   }
 
   public static void starTree()
