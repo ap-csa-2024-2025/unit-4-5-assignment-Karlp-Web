@@ -5,6 +5,7 @@ public class Main
   public static void main(String[] args)
   {
     // Make sure to test your methods here
+    multTable();
   }
 
   public static void printNTimes(String word, int N)
@@ -14,7 +15,7 @@ public class Main
       String L = word.substring(i, i+1);//extracts a single charatcer from word
 
 //loop that runs N times
-      if (int n = 0; n < N; n++)
+      for (int n = 0; n < N; n++)
       {
         System.out.println(L); //prints the extracted character N times
       }
@@ -37,16 +38,30 @@ public class Main
 
   public static void uprightNumberTriangle(int N)
   {
-    For (int)
+    for (int row = 1; row <= N; row++)
+    {
+      for (int num = 1; num <= row; num++)
+      {
+        System.out.print(num + " ");
+      }
+      System.out.println();
+    }
   }
 
   public static void starTree()
   {
-    // code solution here
+    
   }
 
   public static void multTable()
   {
-    // code solution here
+    for (int rowTens = 1; rowTens <= 10; rowTens ++)
+    {
+      for (int tens = 1; tens <= 10; tens++)
+      {
+        System.out.print((rowTens * tens) + "\t");
+      }
+      System.out.println();
+    }
   }
 }
