@@ -50,11 +50,16 @@ public class Main
 
   public static void starTree()
   {
-    for (int starRow = 9; starRow <= 1; starRow--)//for each row
+    for (int starRow = 1; starRow <= 9; starRow++)//for each row
     {
-      for(int starCol = 9; starCol <= 1; starCol--)
+      for(int spaces = 0; starCol < starRow; spaces++)
       {
-        System.out.print((starRow * starCol) + "\t");
+        System.out.print(" ");
+      }
+
+      for (int star = 0; star <= 9 - (starRow - 1); star++)
+      {
+        System.out.print("* ");
       }
       System.out.println();
     }
