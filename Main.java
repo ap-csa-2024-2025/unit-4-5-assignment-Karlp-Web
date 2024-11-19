@@ -5,7 +5,7 @@ public class Main
   public static void main(String[] args)
   {
     // Make sure to test your methods here
-    multTable();
+    starTree();
   }
 
   public static void printNTimes(String word, int N)
@@ -50,7 +50,14 @@ public class Main
 
   public static void starTree()
   {
-    
+    for (int starRow = 9; starRow <= 1; starRow--)//for each row
+    {
+      for(int starCol = 9; starCol <= 1; starCol--)
+      {
+        System.out.print((starRow * starCol) + "\t");
+      }
+      System.out.println();
+    }
   }
 
   public static void multTable()
