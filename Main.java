@@ -52,7 +52,7 @@ public class Main
   {
     for (int starRow = 1; starRow <= 9; starRow++)//for each row
     {
-      for(int spaces = 0; starCol < starRow; spaces++)
+      for(int spaces = 0; spaces < starRow; spaces++)
       {
         System.out.print(" ");
       }
